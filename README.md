@@ -188,7 +188,7 @@ Key libraries:
 - `androidx.media3:media3-exoplayer`
 - `androidx.room:room-runtime`
 - `androidx.lifecycle:lifecycle-viewmodel`
-- `com.google.material:material`
+- `com.google.android.material:material`
 
 ## 📄 License
 

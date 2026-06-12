@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:key="theme_mode"
+        android:title="Theme"
+        android:entries="@array/theme_entries"
+        android:entryValues="@array/theme_values"
+        android:defaultValue="system" />
+
+    <ListPreference
+        android:key="default_speed"
+        android:title="Default playback speed"
+        android:entries="@array/speed_entries"
+        android:entryValues="@array/speed_values"
+        android:defaultValue="1.0" />
+
+    <SwitchPreferenceCompat
+        android:key="auto_resume"
+        android:title="Resume where left off"
+        android:defaultValue="true" />
+
+    <SwitchPreferenceCompat
+        android:key="auto_fullscreen"
+        android:title="Auto fullscreen on rotation"
+        android:defaultValue="false" />
+
+</PreferenceScreen>

@@ -1,2 +1,2 @@
-include ':app'
 rootProject.name = "YouTube-Player"
+include ':app'
